@@ -27,18 +27,19 @@
   </head>
   <body>
     <div class="container">
+      <!--------------- header ---------------- -->
       <header class="header_top position-fixed start-0 top-0 w-100">
-        <div class="row h-100">
-            <div class="col-1 p-0 text-end h-100">
+        <div class="row m-0 h-100">
+            <div class="col-lg-1 col-2 p-0 text-end h-100">
                <p class="mt-2"><i class="fa-solid fa-notes-medical text-white"></i></p> </i>
             </div>
-          <div class="col-2 h-100 text-start"> 
+          <div class="col-lg-2 col-4 h-100 text-start"> 
             <p class="text-white m-0" style="letter-spacing: 2px">Medical</p>
             <p class="m-0 p-0" style="letter-spacing: 4px">
               <span>clinic</span>
             </p>
           </div>
-          <div class="col-6 ps-0 h-100">
+          <div class="col-lg-6 d-none d-sm-none d-md-none d-lg-block ps-0 h-100">
             <nav class="navbar navbar-expand-lg navbar-light p-0 h-100">
                 <div class="container-fluid ps-0 h-100">
                   <!-- <a class="navbar-brand text-white" href="#">Navbar</a> -->
@@ -73,27 +74,35 @@
                 </div>
               </nav>
           </div>
-          <div class="col-3 ">
-            <nav class="navbar navbar-expand-lg navbar-light pb-0 ">
-                <div class="container-fluid ps-0 ">
-                  <div class="collapse navbar-collapse " id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
-                    <form class="d-flex ">
-                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    </form>
-                  </div>
-                </div>
-              </nav>
+          <div class="col-lg-3 col-6 tbdr">
+              <div class="input-group flex-nowrap pt-1">
+                <span class="input-group-text" id="addon-wrapping"><i class="fa-solid fa-magnifying-glass"></i></span>
+                <input type="text" class="form-control" placeholder="Search" aria-label="Username" aria-describedby="addon-wrapping">
+            </div>
           </div>
         </div>
       </header>
+      <!-- -------------- main ---------------- -->
       <main>
 <div class="section-1 tbdr">
-   <h3> section-1 .........</h3>
+ <div class="row m-0 position-relative">
+  <div class="col-lg-5 mt-5 ps-5 d-none d-sm-none d-md-none d-lg-block">
+    <h3>We Care For You</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat veniam sit dolores incidunt quod nesciunt impedit! Molestias, nam itaque architecto provident cupiditate porro suscipit ab sapiente saepe velit, fugit cumque?</p>
+    <button type="button" class="btn btn-primary position-absolute" style="margin-top: 98px; width: 45%;"><i class="fa-solid fa-phone fs-5 pe-2"></i>121-232-322 <i class="fa-solid fa-headphones-simple fs-5 ps-3 pe-2"></i>121-21-3214<i class="fa-regular fa-envelope fs-5 ps-3 pe-2"></i>medical@gmail.com</button> 
+    <button type="button" class="btn btn-primary">Learn more</button> 
+   
+  </div>
+  <div class="col-lg-7">
+    <div>
+      <img src="./img/section1.jpg" class="img-fluid float-end" alt="">
+     </div>
+  </div>
+ </div>
 </div>
 <div class="section-2 mt-5 tbdr">
     <div class="row m-0 ">
-        <div class="col-4 ps-5">
+        <div class="col-lg-4 section2_card col-12 ps-5">
             <div class="card ms-5 border-0" style="width: 18rem; background-color: #D7EBF6;">
                 <div class="card-body">
                   <h5 class="card-title" style="color: #579AB5"><i class="fa-solid fa-user-doctor fs-3" ></i></h5>
@@ -102,7 +111,7 @@
                 </div>
               </div>
         </div>
-        <div class="col-4 ps-5">
+        <div class="col-lg-4 section2_card col-12 ps-5">
             <div class="card border-0" style="width: 18rem; background-color: #2986E3; color: white;" >
                 <div class="card-body">
                   <h5 class="card-title"><i class="fa-solid fa-truck-medical fs-3"></i></h5>
@@ -111,7 +120,7 @@
                 </div>
               </div>
         </div>
-        <div class="col-4 pe-5">
+        <div class="col-lg-4 section2_card col-12 pe-5">
             <div class="card border-0" style="width: 18rem; background-color: #D7EBF6;">
              <div class="card-body">
                   <h5 class="card-title" style="color: #579AB5"><i class="fa-regular fa-clock fs-3"></i></h5>
@@ -129,64 +138,67 @@
 </div>
 <div class="section-4 tbdr ps-5 pe-5  mt-4">
     <div class="row">
-        <div class="col-7  ps-5">
+        <div class="col-lg-7 col-12  ps-5 pe-0">
             <h3>About Us</h3>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In consequuntur non, vero eligendi blanditiis, adipisci ad officia facere ipsam nihil saepe maxime voluptates officiis dicta, praesentium fugiat provident laudantium odit?</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia a reiciendis magni maiores accusantium suscipit, nostrum in inventore, adipisci id iure molestiae quam veniam aliquam necessitatibus rerum! Adipisci, porro tempora.</p>
         </div>
-        <div class="col-5" style="background-color:#0ABB3F;">
-            <h3>section-4 ....</h3>
+        <div class="col-lg-5 col-12 ps-0">
+          <img src="./img/section4.jpg" class="img-fluid" alt="">
         </div>
     </div>
 </div>
       </main>
+
+<!------------------ footer ------------ -->
+
       <footer class="tbdr">
 <h3 class="text-center">Our Departments</h3>
-<div class="row m-0 mt-4 mb-5">
-    <div class="col-4 ps-5">
+<div class="row footer_row m-0 mt-4 mb-5">
+    <div class="col-lg-4 col-12 footer_card ps-5 position-relative">
         <div class="card ms-5 border-0 shadow-lg" style="width: 18rem;">
             <div class="card-body ">
               <h5 class="card-title"><i class="fa-solid fa-tooth fs-3"></i></h5>
               <h3 class="card-subtitle mb-2">Dentistry</h3>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
-            <button type="button" class="btn btn-primary position-absolute">Learn more</button>
+            <button type="button" class="btn btn-primary position-absolute footer_btn">Learn more</button>
           </div>
           
     </div>
-    <div class="col-4 ps-5">
+    <div class="col-lg-4 col-12 footer_card ps-5">
         <div class="card border-0 shadow-lg" style="width: 18rem; background-color: #2986E3; color: white;" >
             <div class="card-body">
               <h5 class="card-title"><i class="fa-solid fa-heart-pulse fs-3"></i></h5>
               <h3 class="card-subtitle mb-2">Emergency Services</h3>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
-            <button type="button" class="btn btn-light position-absolute">Learn more</button>
+            <button type="button" class="btn btn-light position-absolute footer_btn">Learn more</button>
           </div>
     </div>
-    <div class="col-4 pe-5">
+    <div class="col-lg-4 col-12 footer_card pe-5">
         <div class="card border-0 shadow-lg" style="width: 18rem;">
          <div class="card-body">
               <h5 class="card-title"><i class="fa-solid fa-user-nurse fs-3"></i></h5>
               <h3 class="card-subtitle mb-2">Health Care</h3>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
-            <button type="button" class="btn btn-primary position-absolute">Learn more</button>
+            <button type="button" class="btn btn-primary position-absolute footer_btn">Learn more</button>
           </div>
     </div>
 </div>
-<div class="row m-0 mt-5">
-    <div class="col-4 ps-5">
+<div class="row m-0 footer_row mt-5">
+    <div class="col-lg-4 col-12 footer_card ps-5">
         <div class="card ms-5 border-0 shadow-lg" style="width: 18rem;">
             <div class="card-body">
               <h5 class="card-title"><i class="fa-solid fa-head-side-virus fs-3"></i></h5>
               <h3 class="card-subtitle mb-2">Psychology</h3>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
-            <button type="button" class="btn btn-primary position-absolute">Learn more</button>
+            <button type="button" class="btn btn-primary position-absolute footer_btn">Learn more</button>
           </div>
     </div>
-    <div class="col-4 ps-5">
+    <div class="col-lg-4 col-12 footer_card ps-5">
         <div class="card border-0 shadow-lg" style="width: 18rem;" >
             <div class="card-body">
               <h5 class="card-title">
@@ -195,22 +207,20 @@
               <h3 class="card-subtitle mb-2">Surgery</h3>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
-            <button type="button" class="btn btn-primary position-absolute">Learn more</button>
+            <button type="button" class="btn btn-primary position-absolute footer_btn">Learn more</button>
           </div>
     </div>
-    <div class="col-4 pe-5">
+    <div class="col-lg-4 col-12 footer_card pe-5">
         <div class="card border-0 shadow-lg" style="width: 18rem;">
          <div class="card-body">
               <h5 class="card-title"><i class="fa-solid fa-person fs-2"></i></h5>
               <h3 class="card-subtitle mb-2">Pediatric</h3>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
-            <button type="button" class="btn btn-primary position-absolute">Learn more</button>
+            <button type="button" class="btn btn-primary position-absolute footer_btn">Learn more</button>
           </div>
     </div>
 </div>
-
-
       </footer>
     </div>
 

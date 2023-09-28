@@ -13,8 +13,8 @@ main{
     margin-top: 50px;
 }
 .section-1{
-    height: 350px;
-    background-color: rgb(10, 187, 63);
+    min-height: 350px;
+    
 }
 .section-2{
     height: 200px;
@@ -33,8 +33,58 @@ main{
 footer{
     height: 550px;
 }
-button{
+footer .card > button.footer_btn{
     width: 40%;
   margin-top: 166px;
   margin-left: 80px;  
+}
+@media only screen and (max-width: 700px) {
+ .header_top{
+    position: fixed;
+}
+.section-1{
+    width: 100%;
+   min-height: 200px;
+}
+.section-2{
+    width: 100%;
+    height: auto;
+    margin-top: 10px !important ;
+}
+.section-2 .section2_card{
+    width: 100%;
+    margin-bottom: 10px;
+    padding-left: 120px !important;
+}
+.section-2 .section2_card .card{
+    margin-left: 0px !important;
+   
+}
+.section-3{
+    width: 100%;
+    height: auto;
+}
+.section-4{
+    width: 100%;
+    height: auto;
+    padding-left: 70px !important;
+}
+footer{
+    height: auto;
+    width: 100%;
+}
+footer .footer_card{
+    width: 100%;
+    margin-bottom: 40px;
+    padding-left: 120px !important;
+}
+footer .footer_card .card{
+    margin-left: 0px !important;
+   
+}
+footer .footer_row{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
 }

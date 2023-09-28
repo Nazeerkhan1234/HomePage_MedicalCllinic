@@ -54,7 +54,7 @@ footer .card > button.footer_btn{
 .section-2 .section2_card{
     width: 100%;
     margin-bottom: 10px;
-    padding-left: 120px !important;
+    padding-left: 30px !important;
 }
 .section-2 .section2_card .card{
     margin-left: 0px !important;
@@ -76,7 +76,7 @@ footer{
 footer .footer_card{
     width: 100%;
     margin-bottom: 40px;
-    padding-left: 120px !important;
+    padding-left: 30px !important;
 }
 footer .footer_card .card{
     margin-left: 0px !important;
